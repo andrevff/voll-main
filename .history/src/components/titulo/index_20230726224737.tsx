@@ -1,0 +1,1 @@
+import avaliacao from './assets/avalia'
