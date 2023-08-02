@@ -1,0 +1,1 @@
+const Subtitulo = sty

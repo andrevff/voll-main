@@ -25,7 +25,7 @@ function App() {
         <Titulo>Área Admnistrativa</Titulo>
         <Tabela consultas={consultas} />
         <Grafico consultas={consultas} profissionais={profissionais} />
-        <Avaliacao profissionais={profissionais} />
+        <Avaliacao profissionais />
       </Container>
       <Rodape />
     </>
