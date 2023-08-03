@@ -27,7 +27,6 @@ const SpanEstilizado = styled.span<Props>`
 
 const TituloEstilizado = styled.h2`
     color: var(--azul-claro);
-    padding-top: 0.5em;
 `
 
 const ContainerEstilizado = styled.div`

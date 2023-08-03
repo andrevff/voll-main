@@ -3,8 +3,6 @@ import IProfissional from "../../types/IProfissional";
 import Card from "./card";
 import Titulo from "../titulo";
 import { AiFillStar } from 'react-icons/ai'
-import Subtitulo from "../subtitulo";
-import Button from "../botao";
 
 const SecaoCard = styled.section`
     display: flex;
@@ -16,14 +14,12 @@ const SecaoCard = styled.section`
 export default function Avaliacao({profissionais} : {profissionais: IProfissional[] | null}) {
     return (
         <>
-            <Titulo><AiFillStar /> Avaliação dos Profissionais</Titulo>
-            <Subtitulo>Jul/23</Subtitulo>
+            <Titulo>Avaliação dos Profissionais</Titulo>
             <SecaoCard>
                 { profissionais?.map((profissional) => {
                     return <Card profissional={profissional} />
                 }) }
             </SecaoCard>
-            <Button>Ver mais</Button>
         </>
     )
 }

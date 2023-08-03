@@ -4,7 +4,7 @@ const Subtitulo = styled.h3`
     color: var(--azul-escuro);
     font-weight: 700;
     font-size: 18px;
-    padding-top: 1px;
+    padding-top: 0em;
 `
 
 export default Subtitulo

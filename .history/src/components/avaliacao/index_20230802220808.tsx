@@ -23,7 +23,7 @@ export default function Avaliacao({profissionais} : {profissionais: IProfissiona
                     return <Card profissional={profissional} />
                 }) }
             </SecaoCard>
-            <Button>Ver mais</Button>
+            <Button
         </>
     )
 }

@@ -5,7 +5,6 @@ import useDadosGrafico from "./useDadosGrafico";
 import styled from "styled-components";
 import Titulo from "../titulo";
 import { BsFillBarChartFill } from 'react-icons/bs'
-import Subtitulo from "../subtitulo";
 
 interface Props {
     profissionais: IProfissional[] | null,
@@ -28,8 +27,7 @@ export default function Grafico({profissionais, consultas}: Props){
 
     return(
         <>
-            <Titulo><BsFillBarChartFill /> Consultas mensais por especialista</Titulo>
-            <Subtitulo>Jul/23</Subtitulo>
+            <Titulo>< Consultas mensais por especialista</Titulo>
             <SecaoEstilizada>
                 <ResponsiveContainer width="100%" height={350}>
                     <BarChart layout="vertical" data={dados} margin={{ top: 25, right: 40, left: 40, bottom: 20 }}>

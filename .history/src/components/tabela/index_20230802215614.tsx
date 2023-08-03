@@ -36,7 +36,7 @@ export default function Tabela({consultas} : {consultas : IConsulta[] | null}) {
     return(
         <>
             <Button>Cadastrar especialista</Button>
-            <Titulo><AiOutlineFileSearch /> Consultas do dia</Titulo>
+            <Titulo><AiOutlineFileSearcher /> Consultas do dia</Titulo>
             <TableContainer component = {Paper}>
                 <Table sx={{minWidth: 700}} aria-label="tabela-customizada">
                     <TableHead>
@@ -66,7 +66,6 @@ export default function Tabela({consultas} : {consultas : IConsulta[] | null}) {
                     </TableBody>
                 </Table>
             </TableContainer>
-            <Button>Ver mais</Button>
         </>
     )
 }

@@ -27,7 +27,6 @@ const SpanEstilizado = styled.span<Props>`
 
 const TituloEstilizado = styled.h2`
     color: var(--azul-claro);
-    padding-top: 0.5em;
 `
 
 const ContainerEstilizado = styled.div`
@@ -47,6 +46,7 @@ export default function Titulo({ imagem, children }: Props){
         <ContainerEstilizado>
             {imagem && <SpanEstilizado imagem={listaDeImagens[imagem as keyof IImagens]} />}
             <TituloEstilizado>{children}</TituloEstilizado>
+            <Bu
         </ContainerEstilizado>
     )
 }

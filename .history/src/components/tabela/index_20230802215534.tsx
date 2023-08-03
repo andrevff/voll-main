@@ -7,7 +7,6 @@ import TableCell from "@mui/material/TableCell/TableCell";
 import TableBody from "@mui/material/TableBody/TableBody";
 import IConsulta from "../../types/IConsulta";
 import styled from "@emotion/styled";
-import { AiOutlineFileSearch } from 'react-icons/ai'
 import { tableCellClasses } from "@mui/material/TableCell";
 import Button from "../botao";
 import Titulo from "../titulo";
@@ -36,7 +35,7 @@ export default function Tabela({consultas} : {consultas : IConsulta[] | null}) {
     return(
         <>
             <Button>Cadastrar especialista</Button>
-            <Titulo><AiOutlineFileSearch /> Consultas do dia</Titulo>
+            <Titulo><AiOutline Consultas do dia</Titulo>
             <TableContainer component = {Paper}>
                 <Table sx={{minWidth: 700}} aria-label="tabela-customizada">
                     <TableHead>
@@ -66,7 +65,6 @@ export default function Tabela({consultas} : {consultas : IConsulta[] | null}) {
                     </TableBody>
                 </Table>
             </TableContainer>
-            <Button>Ver mais</Button>
         </>
     )
 }

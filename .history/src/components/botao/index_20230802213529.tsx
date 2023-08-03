@@ -7,7 +7,7 @@ const Button = styled.button`
     color: var(--branco);
     border: none;
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin
     font-weight: 700;
     line-height: 19px;
 `

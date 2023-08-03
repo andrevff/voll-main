@@ -4,7 +4,6 @@ import Card from "./card";
 import Titulo from "../titulo";
 import { AiFillStar } from 'react-icons/ai'
 import Subtitulo from "../subtitulo";
-import Button from "../botao";
 
 const SecaoCard = styled.section`
     display: flex;
@@ -23,7 +22,7 @@ export default function Avaliacao({profissionais} : {profissionais: IProfissiona
                     return <Card profissional={profissional} />
                 }) }
             </SecaoCard>
-            <Button>Ver mais</Button>
+            <Butt
         </>
     )
 }

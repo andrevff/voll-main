@@ -66,7 +66,7 @@ export default function Tabela({consultas} : {consultas : IConsulta[] | null}) {
                     </TableBody>
                 </Table>
             </TableContainer>
-            <Button>Ver mais</Button>
+            <Button></Button>
         </>
     )
 }
